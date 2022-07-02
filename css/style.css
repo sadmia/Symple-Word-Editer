@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-family: arial;
+	background: #F3F3F3;
+}
+
+.navbarSection {
+	width: 100%;
+	box-sizing: border-box;
+	background: #fff;
+	border-bottom: 1px solid #3335;
+}
+
+.navbarSection ul {
+	margin-bottom: 0;
+	padding: 0;
+}
+.navbarSection ul li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 14px;
+	color: #000;
+	font-weight: 500;
+	cursor: pointer;
+}
+.navbarSection ul li:first-child{
+	background: #275599;
+	color: #fff;
+}
+
+.haderItem {
+	width: 100%;
+	background: #3331;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #3335;
+}
+
+.fontSelectBar {
+	padding: 5px 10px;
+	font-size: 18px;
+	border: 5px solid #fff0;
+	outline: 1px solid #3335;
+}
+
+.textViw {
+	width: 80%;
+	height: 100vh;
+	margin-left: 10%;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: arial;
+	padding: 50px;
+	border: 1px solid #3339;
+	outline: none;
+	resize: none;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+
+.fontFelelySet {
+	padding: 3px 15px;
+	border: 3px solid #3330;
+	outline: 1px solid #333;
+}
+
+.haderItem ul {
+	margin-bottom: 0;
+	padding-top: 0;
+}
+.haderItem ul li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 14px;
+	padding-right: 40px;
+	color: #000;
+	font-weight: 500;
+	cursor: pointer;
+	position: relative;
+}
+.inputFontSize {
+	padding: 3px;
+	border: 3px solid #3330;
+	outline: 1px solid #333;
+}
+
+.haderItem ul li img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.gapImages {
+	width: 20px !important;
+    height: 20px !important;
+    right: 10px !important;
+    top: 13px !important;
+    transform: rotate(90deg) !important;
+}
+
+.clickBtnDesign {
+	padding-right: 0px !important;
+    font-size: 20px !important;
+    font-family: auto;
+    font-weight: 600 !important;
+    padding: 10px 15px !important;
+}
+
+.italic {
+	font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+}
+.line-through {
+	text-decoration: line-through;
+}
+
+
+#fontArial {
+	font-family: arial;
+}
+#fontCursive {
+	font-family: cursive;
+}
+#fontFangsong {
+	font-family: fangsong;
+}
+#fontFantasy {
+	font-family: fantasy;
+}
+#fontInherit {
+	font-family: inherit;
+}#fontMonospace {
+	font-family: monospace;
+}
+#fontOrbitronVariable {
+	font-family: Orbitron-Variable;
+}
+#fontMichromaRegular {
+	font-family: Michroma-Regular;
+}
+
+.clickBtnDesign2 {
+	width: 30px;
+	height: 30px;
+	padding-right: 0px !important;
+	padding: 3px 10px;
+}
+.clickBtnDesign2 img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#left-align {
+	background: #3332;
+}
